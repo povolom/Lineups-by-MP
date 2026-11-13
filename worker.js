@@ -5,7 +5,7 @@ const APP = {
   name: 'Lineups by MP',
   status: 'coming soon',
   site: 'https://lineups.marcantoniopovolo.com',
-  about: 'https://marcantoniopovolo.com/projects/lineups.html',
+  about: 'https://marcantoniopovolo.com/projects/lineups',
   code: 'https://github.com/povolom/Lineups-by-MP',
 };
 

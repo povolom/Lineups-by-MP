@@ -2,7 +2,7 @@
 
 A personal research desk for daily fantasy: bookmark players with their salaries, see who is worth their price tonight, build lineups under the cap and keep a ledger of what I entered and won.
 
-**Status:** coming soon at https://lineups.marcantoniopovolo.com · [About the project](https://marcantoniopovolo.com/projects/lineups.html) · Open source (MIT)
+**Status:** coming soon at https://lineups.marcantoniopovolo.com · [About the project](https://marcantoniopovolo.com/projects/lineups) · Open source (MIT)
 
 Built by [Marcantonio Povolo](https://marcantoniopovolo.com), a Computer Engineering student at Toronto Metropolitan University. I decide what it does and review and test each change; AI coding tools help write the code.
 
@@ -23,7 +23,7 @@ The full plan is in [SPEC.md](SPEC.md).
 | Path | What it is |
 |---|---|
 | `SPEC.md` | The full build plan, milestone by milestone |
-| `site/` | The website at lineups.marcantoniopovolo.com: the coming-soon page (`index.html`, `style.css`), icons and favicons. `about/` and `_redirects` send the old project page to [marcantoniopovolo.com/projects/lineups.html](https://marcantoniopovolo.com/projects/lineups.html) |
+| `site/` | The website at lineups.marcantoniopovolo.com: the coming-soon page (`index.html`, `style.css`), icons and favicons. `about/` and `_redirects` send the old project page to [marcantoniopovolo.com/projects/lineups.html](https://marcantoniopovolo.com/projects/lineups) |
 | `worker.js` | The API: anything under `/api/` (for now `/api/status`). Everything else is served from `site/` |
 | `wrangler.jsonc` | Cloudflare settings: `site/` plus `worker.js` at lineups.marcantoniopovolo.com |
 | `LICENSE` | MIT: free to use, change and share |
